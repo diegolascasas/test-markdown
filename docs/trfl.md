@@ -26,7 +26,7 @@ equal or unspecified. E.g. `[2, 3]` is compatible with all of `[2, 3]`,
     compatibility asserts.
 
 
-### [`batched_index(values, indices)`](https://github.com/deepmind/trfl/blob/master/trfl/indexing_ops.py?l=64)<a id="batched_index"></a>
+### [`batched_index(values, indices)`](https://github.com/deepmind/trfl/blob/master/trfl/indexing_ops.py?l=64){#batched_index}
 
 Equivalent to `values[:, indices]`.
 
@@ -1455,5 +1455,3 @@ NUM_ACTIONS refers to the number of actions.
       behaviour policy action log probabilities (log \mu(a_t)).
 * `target_action_log_probs`: A float32 tensor of shape [T, B] containing
       target policy action probabilities (log \pi(a_t)).
-
-
